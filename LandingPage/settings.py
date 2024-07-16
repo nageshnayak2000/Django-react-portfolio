@@ -121,6 +121,7 @@ MEDIA_URL = '/media/'
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000"
 ]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'landing-page-react/build/static')
